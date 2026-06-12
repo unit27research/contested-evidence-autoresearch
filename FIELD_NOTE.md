@@ -64,6 +64,10 @@ Each artifact feeds the next. Cards feed autopsies. Autopsies update theory page
 
 The loop is useful when it makes the field harder to oversimplify.
 
+The autoresearch part is the structured recurrence. Each pass leaves behind a state that the next pass can read: cards, conflicts, theory pages, rubric splits, questions, and collection gaps. That state can be inspected by people and, later, partially processed by tools.
+
+The first release keeps the loop manual-first so the artifacts can be tested before automation hides their weaknesses. The intended automation target is narrow: draft reviewable artifacts, propose candidate conflicts, surface thin coverage cells, and suggest next questions. It is not to select the winning theory.
+
 ## Minimum First Cycle
 
 A team does not need to run the full framework on day one.

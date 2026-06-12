@@ -28,6 +28,20 @@ Contested Evidence Autoresearch treats the research state as a structured eviden
 
 The point is not to make the loop autonomous. The point is to make the loop inspectable.
 
+## What Can Be Automated
+
+The loop has automatable transitions, even though v0.1 is manual-first.
+
+| Transition | Possible automation | Human gate |
+| --- | --- | --- |
+| Source to card | Draft a finding card from a source passage | Reviewer confirms the finding sentence, scope, strength grade, and source link |
+| Card to conflict | Suggest cards that appear to disagree | Reviewer decides whether the conflict is real, apparent, or out of scope |
+| Conflict to autopsy | Draft an autopsy across construct, scope, time, method, analytic flexibility, and unresolved conflict | Reviewer assigns the category and records what would resolve it |
+| Theory map to question | Identify missing undercuts, untested distinctive predictions, and scorer splits | Reviewer approves the question and pre-commitment |
+| Question to collection plan | Suggest searches, source types, and thin matrix cells | Reviewer checks feasibility, source quality, and safety boundaries |
+
+The useful automation target is not "choose the answer." It is "make the next reviewable research move cheaper and easier to inspect."
+
 ## What The Loop Optimizes
 
 This loop does not optimize a single scalar objective.
@@ -50,7 +64,7 @@ Autoresearch systems are credible when their feedback signal is credible.
 
 When the feedback signal is weak, ambiguous, delayed, or socially constructed, the loop needs a different target. It should first improve the evidence environment it is reasoning inside.
 
-This field kit proposes one manual-first version of that target.
+This field kit proposes one manual-first version of that target. The templates are the state format. The loop is the protocol. Automation can be added only where the artifact produced can still be reviewed.
 
 ## Candidate Uses
 
@@ -93,4 +107,3 @@ If the loop ends with a narrower claim and a better experiment, it worked.
 This is not a proposal to replace benchmarked autoresearch. If a clean scoreboard exists and is trusted, use it.
 
 This is for the layer before that: the layer where the team decides whether the scoreboard actually measures the thing it is being asked to measure.
-

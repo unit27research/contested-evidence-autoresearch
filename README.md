@@ -55,6 +55,21 @@ The output is structured uncertainty with a ranked attack plan.
 8. Collect sources against thin cells in the coverage matrix.
 9. Re-run the cycle on a cadence and keep prior uncertainty visible.
 
+## How This Is Autoresearch
+
+In this repo, autoresearch does not mean autonomous science. It means the research process is expressed as a repeatable loop with explicit state, actions, feedback, and review gates.
+
+| Loop part | In this field kit |
+| --- | --- |
+| State | Evidence cards, theory pages, autopsies, rubric splits, question backlog, source matrix |
+| Actions | Add a card, revise a theory, autopsy a conflict, generate a question, collect against a thin cell |
+| Feedback | Clearer scope, stronger source traceability, visible conflicts, more vulnerable theories, better next questions |
+| Stop / continue signal | Human reviewers decide whether the current evidence supports a narrower claim, another collection pass, or a formal review method |
+
+The automatable part is the movement between artifacts: sources create cards, cards expose conflicts, conflicts create autopsies, autopsies revise theories, theory gaps generate questions, and questions direct the next collection pass.
+
+In v0.1, that loop is manual-first. AI or scripts may later help draft cards, suggest conflicts, fill matrices, or propose next questions, but source artifacts and human review remain the authority.
+
 ## What This Repo Contains
 
 - `FIELD_NOTE.md`: the public field-note draft
