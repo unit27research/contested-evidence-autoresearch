@@ -42,4 +42,3 @@ This release is Markdown-only. It is meant to be read, forked, copied, and used 
 - Add CSV versions of the evidence-card and coverage-matrix templates.
 - Add a tiny validation script only if manual use reveals repeated formatting errors.
 - Add a CLI only after the manual workflow proves stable.
-- Run one additional pilot outside LLM evaluation and revise templates where manual use is awkward.

@@ -113,6 +113,4 @@ This is not an autonomous scientist, a systematic review replacement, a truth ma
 
 ## Status
 
-Draft v0.1. Markdown-only. No CLI, UI, package manager, automation, or live data extraction.
-
-The repo now includes one fictional example and one small real-source pilot. The next useful step is a second real pilot outside LLM evaluation, followed by a revision of the templates based on where manual use becomes awkward.
+v0.1. Markdown-only. No CLI, UI, package manager, automation, or live data extraction.
