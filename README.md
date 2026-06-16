@@ -72,7 +72,8 @@ In v0.1, that loop is manual-first. AI or scripts may later help draft cards, su
 
 ## What This Repo Contains
 
-- `FIELD_NOTE.md`: the public field-note draft
+- `FIELD_NOTE.md`: the original public field-kit note
+- `FIELD_NOTES/001-after-50-cycles.md`: notes from a 50-cycle manual-first run in a high-stakes contested evidence domain
 - `templates/`: reusable Markdown templates for one manual cycle
 - `examples/carverton/`: a fictional worked example using a city transit domain
 - `examples/llm-benchmark-reliability/`: a small real-source pilot on benchmark interpretation
