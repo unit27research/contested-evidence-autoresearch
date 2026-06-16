@@ -79,14 +79,8 @@ The run points to several method changes:
 
 Some of this behavior already exists in the working research loop. Some of it still needs to be patched into the public field kit. The distinction matters. This field note is not claiming the public repo already implements every lesson.
 
-## Recommended Next Repo Patches
+## Where This Goes Next
 
-The field note implies a short list of repo changes:
+The next work is to fold these lessons back into the field kit without making it heavier than it needs to be.
 
-- Add coverage-versus-settledness language to the README and templates.
-- Add a visual-salience warning to the atlas documentation.
-- Add "blocked source" as a documented loop state with its own template field.
-- Add a synthesis-pass template so no-card cycles have a real home.
-- Clarify the manual-first to automation path, including which transitions can be assisted and which must stay under human review.
-
-The automation boundary is the same as before. Tools can draft cards, propose conflicts, surface thin coverage, and suggest next questions. The loop has to stay inspectable enough that none of that quietly chooses the answer.
+The useful changes are small and practical: make blocked sources visible, give synthesis passes a real home, and make visual outputs distinguish coverage from settledness. The automation boundary is the same as before. Tools can draft cards, propose conflicts, surface thin coverage, and suggest next questions. The loop has to stay inspectable enough that none of that quietly chooses the answer.
