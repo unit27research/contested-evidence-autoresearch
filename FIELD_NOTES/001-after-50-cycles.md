@@ -79,12 +79,6 @@ The run points to several method changes:
 
 Some of this behavior already exists in the working research loop. Some of it still needs to be patched into the public field kit. The distinction matters. This field note is not claiming the public repo already implements every lesson.
 
-## What Remains Private Or Out Of Scope
-
-The evidence deck stays private until it has been deliberately reviewed for disclosure. The disease-specific findings are not the public artifact and are not published here.
-
-This note also stays inside its lane on purpose. It is not biomedical advice, not a research finding, and not a claim that the framework discovered anything about the field. The framework organizes reading and preserves uncertainty. It does not produce medical knowledge, and nothing here should be read as if it does.
-
 ## Recommended Next Repo Patches
 
 The field note implies a short list of repo changes:
